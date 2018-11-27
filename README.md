@@ -49,7 +49,7 @@ Batch_size = no. of samples at a time during each epoch, which will be used to t
 
 If batch_size is too small, model will start ‘memorizing’ the training data instead of learning and it will overfit. Similarly, if batch_size is too large, model will not learn all-important features and it will underfit.
 
-It is generally good idea to keep batch_size in 32-to-128.
+It is generally good idea to keep batch_size in the range 32-to-128.
 
 Finally, epoch will determine the time required for training the model. Good value to choose of epoch can be determined using some hints & trials. We should check if accuracy is increasing and loss is decreasing with each epoch, then we could assume that model is learning properly.
 
