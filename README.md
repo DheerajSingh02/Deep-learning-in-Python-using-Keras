@@ -57,7 +57,7 @@ Finally, epoch will determine the time required for training the model. Good val
 classes = model.predict(x_test, batch_size=128)
 
 
-Use of Maxpooling, Dropout and Flatten layers:
+# Use of Maxpooling, Dropout and Flatten layers:
 
 Maxpooling: It consists of extracting windows from the input feature maps and outputting the max value of each channel.
 POOL layer will perform a downsampling operation along the spatial dimensions (width, height).
