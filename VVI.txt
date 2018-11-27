@@ -1,0 +1,12 @@
+Note: Currently TensorFlow is not being supported for Python3.6x and above versions.
+
+To Create a virtual env with specific python version here:
+
+1. open anaconda prompt
+2. go to current working directory using cd in anaconda prompt.
+3. conda create -n py35 python=3.5.2
+4. type y
+5. configure the newly created virtual env 'venv' in pycharm as project interpreter.
+set bas interpreter as C:\Users\user_name\AppData\Local\Continuum\anaconda3\envs\py35\python.exe   -------------------------->find it in the conda prompt. but this is the generally path.
+6. install other necessary packages with pip in this venv or through Pycharm.
+
