@@ -3,8 +3,8 @@ Image recognition in Keras
 --------------------------------------------------------------------------------------------------------------------------
 The fundamental difference between a densely connected layer and a convolution layer is this:
 
-Dense Layers -----learns--- Global patterns in the input feature space, for a MNIST digit, patterns involving all pixels.
-Convolution Layers -----learns --- Local patterns, in case of image-edges, and textures. 
+Dense Layers -----learns---> Global patterns in the input feature space, for a MNIST digit, patterns involving all pixels.
+Convolution Layers -----learns ---> Local patterns, in case of image-edges, and textures. 
 
 These important characteristics give convnets two properties:
 1.	The pattern they learn are translational invariant.
