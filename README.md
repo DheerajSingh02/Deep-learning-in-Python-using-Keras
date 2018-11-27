@@ -9,7 +9,8 @@ Convolution Layers -----learns ---> Local patterns, in case of image-edges, and 
 These important characteristics give convnets two properties:
 1.	The pattern they learn are translational invariant.
 2.	They can learn spatial hierarchies of patterns.
-Introduction to Keras
+--------------------------------------------------------------------------------------------------------------------------
+# Introduction to Keras
 Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.
 It supports both convolutional networks and recurrent networks, as well as combinations of the two.
 Some points to keep in mind:
