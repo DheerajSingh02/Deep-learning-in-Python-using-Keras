@@ -40,7 +40,7 @@ Optimizer denotes the way in which above loss function will be minimized.
  A metric is a function that is used to judge the performance of your model. Metric functions are to be supplied in the metrics parameter when a model is compiled. E.g. ['mae', 'acc']
 
 4.	Now we can fit the trained model with training data so that it will learn the weight parameters.
-# x_train and y_train are Numpy arrays --just like in the Scikit-Learn API.
+   #x_train and y_train are Numpy arrays --just like in the Scikit-Learn API.
    model.fit(x_train, y_train, epochs=5, batch_size=32)
 
 epoch = No. of times the whole dataset will be fed to model for training. 
